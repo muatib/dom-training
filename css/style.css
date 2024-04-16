@@ -1,0 +1,33 @@
+
+.text-of {
+    display: none;
+} 
+
+
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+.random-color {
+    background-color: var(--random-color);
+  }
+
+  /* .progress {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+  }
+  
+  .progress-val {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+    transition: width 0.3s ease;
+  } */

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Javascript DOM</title>
 </head>
-<body class="dark-template">
+<body class="dark-template" id="scroll-value">
     <div class="container">
         <header class="header">
             <h1 class="main-ttl">Javascript et DOM</h1>
@@ -27,8 +27,8 @@
             <h2 class="exercice-ttl">Exercice 1</h2>
             <p class="exercice-txt">Au clic sur le bouton ci-dessous, masquez le paragraphe de texte à côté de lui s'il est affiché. S'il est masqué, affichez-le.</p>
             <div class="exercice-sandbox">
-                <button type="button" class="button">Click me</button>
-                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est temporibus officia consequuntur illum optio quas omnis laudantium assumenda placeat? Laudantium aliquam illum voluptatem minima rem tempore adipisci at quasi?</p>
+                <button type="button" class="button" id="btn1">Click me</button>
+                <p class="text text-of" id="text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est temporibus officia consequuntur illum optio quas omnis laudantium assumenda placeat? Laudantium aliquam illum voluptatem minima rem tempore adipisci at quasi?</p>
             </div>
         </section>
 
@@ -46,7 +46,7 @@
             <h2 class="exercice-ttl">Exercice 3</h2>
             <p class="exercice-txt">Au clic sur le bouton ci-dessous, faites changer l'ordre des animaux en déplaçant le premier en dernier.</p>
             <div class="exercice-sandbox">
-                <button type="button" class="button">Click me</button>
+                <button type="button" class="button" id="btn2">Click me</button>
                 <ul id="ex3-animals" class="flex-list">
                     <li>🐅</li>
                     <li>🐘</li>
@@ -70,7 +70,7 @@
                 Puis il redevient bleu.
             </p>
             <div class="exercice-sandbox">
-                <button type="button" class="button">Click me</button>
+                <button type="button" class="button" id="btn3">Click me</button>
             </div>
         </section>
         
@@ -83,14 +83,14 @@
             </p>
             <div class="exercice-sandbox">
                 <ul class="flex-list">
-                    <li><button type="button" class="button">👽</button></li>
-                    <li><button type="button" class="button">😱</button></li>
-                    <li><button type="button" class="button">🔭</button></li>
-                    <li><button type="button" class="button">🌌</button></li>
-                    <li><button type="button" class="button">🛸</button></li>
-                    <li><button type="button" class="button">🚀</button></li>
-                    <li><button type="button" class="button">🐵</button></li>
-                    <li><button type="button" class="button">👨‍🚀</button></li>
+                    <li><button type="button" class="button" id="btn4">👽</button></li>
+                    <li><button type="button" class="button" id="btn4">😱</button></li>
+                    <li><button type="button" class="button" id="btn4">🔭</button></li>
+                    <li><button type="button" class="button" id="btn4">🌌</button></li>
+                    <li><button type="button" class="button" id="btn4">🛸</button></li>
+                    <li><button type="button" class="button" id="btn4">🚀</button></li>
+                    <li><button type="button" class="button" id="btn4">🐵</button></li>
+                    <li><button type="button" class="button" id="btn4">👨‍🚀</button></li>
                 </ul>
             </div>
         </section>
