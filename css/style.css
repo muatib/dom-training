@@ -19,15 +19,16 @@
     background-color: var(--random-color);
   }
 
-  /* .progress {
-    width: 100%;
-    background-color: #ddd;
-    height: 20px;
-  }
   
-  .progress-val {
-    height: 100%;
-    background-color: #4caf50;
-    width: 0%;
-    transition: width 0.3s ease;
-  } */
+
+.tabs-link.active {
+  background-color: white;
+}
+
+.tab-content-item {
+  display: none;
+}
+
+.tab-content-item.active {
+  display: block;
+}
